@@ -1,0 +1,510 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0360529A1C9859DF00EC0763 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 036052991C9859DF00EC0763 /* AppDelegate.swift */; };
+		0360529C1C9859DF00EC0763 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0360529B1C9859DF00EC0763 /* ViewController.swift */; };
+		0360529F1C9859DF00EC0763 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0360529D1C9859DF00EC0763 /* Main.storyboard */; };
+		036052A11C9859DF00EC0763 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 036052A01C9859DF00EC0763 /* Assets.xcassets */; };
+		036052A41C9859DF00EC0763 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 036052A21C9859DF00EC0763 /* LaunchScreen.storyboard */; };
+		036052AF1C9859E000EC0763 /* S3TrialTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 036052AE1C9859E000EC0763 /* S3TrialTests.swift */; };
+		036052BA1C9859E000EC0763 /* S3TrialUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 036052B91C9859E000EC0763 /* S3TrialUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		036052AB1C9859DF00EC0763 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0360528E1C9859DF00EC0763 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 036052951C9859DF00EC0763;
+			remoteInfo = S3Trial;
+		};
+		036052B61C9859E000EC0763 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0360528E1C9859DF00EC0763 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 036052951C9859DF00EC0763;
+			remoteInfo = S3Trial;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		036052961C9859DF00EC0763 /* S3Trial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = S3Trial.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		036052991C9859DF00EC0763 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0360529B1C9859DF00EC0763 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0360529E1C9859DF00EC0763 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		036052A01C9859DF00EC0763 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		036052A31C9859DF00EC0763 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		036052A51C9859DF00EC0763 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		036052AA1C9859DF00EC0763 /* S3TrialTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = S3TrialTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		036052AE1C9859E000EC0763 /* S3TrialTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = S3TrialTests.swift; sourceTree = "<group>"; };
+		036052B01C9859E000EC0763 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		036052B51C9859E000EC0763 /* S3TrialUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = S3TrialUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		036052B91C9859E000EC0763 /* S3TrialUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = S3TrialUITests.swift; sourceTree = "<group>"; };
+		036052BB1C9859E000EC0763 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		036052931C9859DF00EC0763 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		036052A71C9859DF00EC0763 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		036052B21C9859E000EC0763 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0360528D1C9859DF00EC0763 = {
+			isa = PBXGroup;
+			children = (
+				036052981C9859DF00EC0763 /* S3Trial */,
+				036052AD1C9859E000EC0763 /* S3TrialTests */,
+				036052B81C9859E000EC0763 /* S3TrialUITests */,
+				036052971C9859DF00EC0763 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		036052971C9859DF00EC0763 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				036052961C9859DF00EC0763 /* S3Trial.app */,
+				036052AA1C9859DF00EC0763 /* S3TrialTests.xctest */,
+				036052B51C9859E000EC0763 /* S3TrialUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		036052981C9859DF00EC0763 /* S3Trial */ = {
+			isa = PBXGroup;
+			children = (
+				036052991C9859DF00EC0763 /* AppDelegate.swift */,
+				0360529B1C9859DF00EC0763 /* ViewController.swift */,
+				0360529D1C9859DF00EC0763 /* Main.storyboard */,
+				036052A01C9859DF00EC0763 /* Assets.xcassets */,
+				036052A21C9859DF00EC0763 /* LaunchScreen.storyboard */,
+				036052A51C9859DF00EC0763 /* Info.plist */,
+			);
+			path = S3Trial;
+			sourceTree = "<group>";
+		};
+		036052AD1C9859E000EC0763 /* S3TrialTests */ = {
+			isa = PBXGroup;
+			children = (
+				036052AE1C9859E000EC0763 /* S3TrialTests.swift */,
+				036052B01C9859E000EC0763 /* Info.plist */,
+			);
+			path = S3TrialTests;
+			sourceTree = "<group>";
+		};
+		036052B81C9859E000EC0763 /* S3TrialUITests */ = {
+			isa = PBXGroup;
+			children = (
+				036052B91C9859E000EC0763 /* S3TrialUITests.swift */,
+				036052BB1C9859E000EC0763 /* Info.plist */,
+			);
+			path = S3TrialUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		036052951C9859DF00EC0763 /* S3Trial */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 036052BE1C9859E000EC0763 /* Build configuration list for PBXNativeTarget "S3Trial" */;
+			buildPhases = (
+				036052921C9859DF00EC0763 /* Sources */,
+				036052931C9859DF00EC0763 /* Frameworks */,
+				036052941C9859DF00EC0763 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = S3Trial;
+			productName = S3Trial;
+			productReference = 036052961C9859DF00EC0763 /* S3Trial.app */;
+			productType = "com.apple.product-type.application";
+		};
+		036052A91C9859DF00EC0763 /* S3TrialTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 036052C11C9859E000EC0763 /* Build configuration list for PBXNativeTarget "S3TrialTests" */;
+			buildPhases = (
+				036052A61C9859DF00EC0763 /* Sources */,
+				036052A71C9859DF00EC0763 /* Frameworks */,
+				036052A81C9859DF00EC0763 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				036052AC1C9859DF00EC0763 /* PBXTargetDependency */,
+			);
+			name = S3TrialTests;
+			productName = S3TrialTests;
+			productReference = 036052AA1C9859DF00EC0763 /* S3TrialTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		036052B41C9859E000EC0763 /* S3TrialUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 036052C41C9859E000EC0763 /* Build configuration list for PBXNativeTarget "S3TrialUITests" */;
+			buildPhases = (
+				036052B11C9859E000EC0763 /* Sources */,
+				036052B21C9859E000EC0763 /* Frameworks */,
+				036052B31C9859E000EC0763 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				036052B71C9859E000EC0763 /* PBXTargetDependency */,
+			);
+			name = S3TrialUITests;
+			productName = S3TrialUITests;
+			productReference = 036052B51C9859E000EC0763 /* S3TrialUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0360528E1C9859DF00EC0763 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = Aya;
+				TargetAttributes = {
+					036052951C9859DF00EC0763 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = CDXP6FVDWF;
+					};
+					036052A91C9859DF00EC0763 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = CDXP6FVDWF;
+						TestTargetID = 036052951C9859DF00EC0763;
+					};
+					036052B41C9859E000EC0763 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = CDXP6FVDWF;
+						TestTargetID = 036052951C9859DF00EC0763;
+					};
+				};
+			};
+			buildConfigurationList = 036052911C9859DF00EC0763 /* Build configuration list for PBXProject "S3Trial" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0360528D1C9859DF00EC0763;
+			productRefGroup = 036052971C9859DF00EC0763 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				036052951C9859DF00EC0763 /* S3Trial */,
+				036052A91C9859DF00EC0763 /* S3TrialTests */,
+				036052B41C9859E000EC0763 /* S3TrialUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		036052941C9859DF00EC0763 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				036052A41C9859DF00EC0763 /* LaunchScreen.storyboard in Resources */,
+				036052A11C9859DF00EC0763 /* Assets.xcassets in Resources */,
+				0360529F1C9859DF00EC0763 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		036052A81C9859DF00EC0763 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		036052B31C9859E000EC0763 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		036052921C9859DF00EC0763 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0360529C1C9859DF00EC0763 /* ViewController.swift in Sources */,
+				0360529A1C9859DF00EC0763 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		036052A61C9859DF00EC0763 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				036052AF1C9859E000EC0763 /* S3TrialTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		036052B11C9859E000EC0763 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				036052BA1C9859E000EC0763 /* S3TrialUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		036052AC1C9859DF00EC0763 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 036052951C9859DF00EC0763 /* S3Trial */;
+			targetProxy = 036052AB1C9859DF00EC0763 /* PBXContainerItemProxy */;
+		};
+		036052B71C9859E000EC0763 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 036052951C9859DF00EC0763 /* S3Trial */;
+			targetProxy = 036052B61C9859E000EC0763 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0360529D1C9859DF00EC0763 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0360529E1C9859DF00EC0763 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		036052A21C9859DF00EC0763 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				036052A31C9859DF00EC0763 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		036052BC1C9859E000EC0763 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		036052BD1C9859E000EC0763 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		036052BF1C9859E000EC0763 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = S3Trial/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.aya.S3Trial;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		036052C01C9859E000EC0763 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = S3Trial/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.aya.S3Trial;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		036052C21C9859E000EC0763 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = S3TrialTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.aya.S3TrialTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/S3Trial.app/S3Trial";
+			};
+			name = Debug;
+		};
+		036052C31C9859E000EC0763 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = S3TrialTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.aya.S3TrialTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/S3Trial.app/S3Trial";
+			};
+			name = Release;
+		};
+		036052C51C9859E000EC0763 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = S3TrialUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.aya.S3TrialUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = S3Trial;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		036052C61C9859E000EC0763 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = S3TrialUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.aya.S3TrialUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = S3Trial;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		036052911C9859DF00EC0763 /* Build configuration list for PBXProject "S3Trial" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				036052BC1C9859E000EC0763 /* Debug */,
+				036052BD1C9859E000EC0763 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		036052BE1C9859E000EC0763 /* Build configuration list for PBXNativeTarget "S3Trial" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				036052BF1C9859E000EC0763 /* Debug */,
+				036052C01C9859E000EC0763 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		036052C11C9859E000EC0763 /* Build configuration list for PBXNativeTarget "S3TrialTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				036052C21C9859E000EC0763 /* Debug */,
+				036052C31C9859E000EC0763 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		036052C41C9859E000EC0763 /* Build configuration list for PBXNativeTarget "S3TrialUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				036052C51C9859E000EC0763 /* Debug */,
+				036052C61C9859E000EC0763 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0360528E1C9859DF00EC0763 /* Project object */;
+}
