@@ -6,6 +6,8 @@
 //  Copyright © 2016 Aya. All rights reserved.
 //
 
+//this file should be ignored and untracked
+
 import Foundation
 import AWSS3
 
