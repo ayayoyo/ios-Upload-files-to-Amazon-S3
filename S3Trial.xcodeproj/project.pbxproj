@@ -14,6 +14,8 @@
 		036052A41C9859DF00EC0763 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 036052A21C9859DF00EC0763 /* LaunchScreen.storyboard */; };
 		036052AF1C9859E000EC0763 /* S3TrialTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 036052AE1C9859E000EC0763 /* S3TrialTests.swift */; };
 		036052BA1C9859E000EC0763 /* S3TrialUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 036052B91C9859E000EC0763 /* S3TrialUITests.swift */; };
+		036052CC1C986E0E00EC0763 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 036052CB1C986E0E00EC0763 /* Constants.swift */; };
+		9FCA418D17A72A98FCDE5F46 /* Pods_S3Trial.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F66D31E2F90E119CED0C63A /* Pods_S3Trial.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,10 @@
 		036052B51C9859E000EC0763 /* S3TrialUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = S3TrialUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		036052B91C9859E000EC0763 /* S3TrialUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = S3TrialUITests.swift; sourceTree = "<group>"; };
 		036052BB1C9859E000EC0763 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		036052CB1C986E0E00EC0763 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		046E8C8C694B43348E943F20 /* Pods-S3Trial.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-S3Trial.debug.xcconfig"; path = "Pods/Target Support Files/Pods-S3Trial/Pods-S3Trial.debug.xcconfig"; sourceTree = "<group>"; };
+		26D8186B315A0D0A91E7418B /* Pods-S3Trial.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-S3Trial.release.xcconfig"; path = "Pods/Target Support Files/Pods-S3Trial/Pods-S3Trial.release.xcconfig"; sourceTree = "<group>"; };
+		9F66D31E2F90E119CED0C63A /* Pods_S3Trial.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_S3Trial.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +60,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9FCA418D17A72A98FCDE5F46 /* Pods_S3Trial.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +88,8 @@
 				036052AD1C9859E000EC0763 /* S3TrialTests */,
 				036052B81C9859E000EC0763 /* S3TrialUITests */,
 				036052971C9859DF00EC0763 /* Products */,
+				D7003916D74D038EB9E48CB6 /* Pods */,
+				531BEC932B9698EC070AD7A3 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -98,8 +107,10 @@
 			isa = PBXGroup;
 			children = (
 				036052991C9859DF00EC0763 /* AppDelegate.swift */,
-				0360529B1C9859DF00EC0763 /* ViewController.swift */,
-				0360529D1C9859DF00EC0763 /* Main.storyboard */,
+				036052CA1C986DFD00EC0763 /* UTL */,
+				036052C81C986DDA00EC0763 /* Model */,
+				036052C91C986DE200EC0763 /* View */,
+				036052C71C986DD200EC0763 /* Controller */,
 				036052A01C9859DF00EC0763 /* Assets.xcassets */,
 				036052A21C9859DF00EC0763 /* LaunchScreen.storyboard */,
 				036052A51C9859DF00EC0763 /* Info.plist */,
@@ -125,6 +136,54 @@
 			path = S3TrialUITests;
 			sourceTree = "<group>";
 		};
+		036052C71C986DD200EC0763 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				0360529B1C9859DF00EC0763 /* ViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		036052C81C986DDA00EC0763 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		036052C91C986DE200EC0763 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0360529D1C9859DF00EC0763 /* Main.storyboard */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		036052CA1C986DFD00EC0763 /* UTL */ = {
+			isa = PBXGroup;
+			children = (
+				036052CB1C986E0E00EC0763 /* Constants.swift */,
+			);
+			name = UTL;
+			sourceTree = "<group>";
+		};
+		531BEC932B9698EC070AD7A3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9F66D31E2F90E119CED0C63A /* Pods_S3Trial.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D7003916D74D038EB9E48CB6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				046E8C8C694B43348E943F20 /* Pods-S3Trial.debug.xcconfig */,
+				26D8186B315A0D0A91E7418B /* Pods-S3Trial.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +191,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 036052BE1C9859E000EC0763 /* Build configuration list for PBXNativeTarget "S3Trial" */;
 			buildPhases = (
+				55C29C5DCFF336DBD6A718B6 /* Check Pods Manifest.lock */,
 				036052921C9859DF00EC0763 /* Sources */,
 				036052931C9859DF00EC0763 /* Frameworks */,
 				036052941C9859DF00EC0763 /* Resources */,
+				EDB512894FC61118DD8F226E /* Embed Pods Frameworks */,
+				81AC2BCCE26982BA116869B8 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -254,6 +316,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		55C29C5DCFF336DBD6A718B6 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		81AC2BCCE26982BA116869B8 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-S3Trial/Pods-S3Trial-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EDB512894FC61118DD8F226E /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-S3Trial/Pods-S3Trial-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		036052921C9859DF00EC0763 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -261,6 +371,7 @@
 			files = (
 				0360529C1C9859DF00EC0763 /* ViewController.swift in Sources */,
 				0360529A1C9859DF00EC0763 /* AppDelegate.swift in Sources */,
+				036052CC1C986E0E00EC0763 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -400,9 +511,11 @@
 		};
 		036052BF1C9859E000EC0763 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 046E8C8C694B43348E943F20 /* Pods-S3Trial.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = S3Trial/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.aya.S3Trial;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -411,9 +524,11 @@
 		};
 		036052C01C9859E000EC0763 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 26D8186B315A0D0A91E7418B /* Pods-S3Trial.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = S3Trial/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.aya.S3Trial;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -487,6 +602,7 @@
 				036052C01C9859E000EC0763 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		036052C11C9859E000EC0763 /* Build configuration list for PBXNativeTarget "S3TrialTests" */ = {
 			isa = XCConfigurationList;
@@ -495,6 +611,7 @@
 				036052C31C9859E000EC0763 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		036052C41C9859E000EC0763 /* Build configuration list for PBXNativeTarget "S3TrialUITests" */ = {
 			isa = XCConfigurationList;
@@ -503,6 +620,7 @@
 				036052C61C9859E000EC0763 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
