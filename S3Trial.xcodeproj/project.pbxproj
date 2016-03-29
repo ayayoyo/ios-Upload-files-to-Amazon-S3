@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		03177E351CAAD7D600397E2C /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03177E341CAAD7D600397E2C /* Constant.swift */; };
 		0360529A1C9859DF00EC0763 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 036052991C9859DF00EC0763 /* AppDelegate.swift */; };
 		0360529C1C9859DF00EC0763 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0360529B1C9859DF00EC0763 /* ViewController.swift */; };
 		0360529F1C9859DF00EC0763 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0360529D1C9859DF00EC0763 /* Main.storyboard */; };
@@ -36,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		03177E341CAAD7D600397E2C /* Constant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
 		036052961C9859DF00EC0763 /* S3Trial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = S3Trial.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		036052991C9859DF00EC0763 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0360529B1C9859DF00EC0763 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -163,6 +165,7 @@
 			isa = PBXGroup;
 			children = (
 				036052CB1C986E0E00EC0763 /* Constants.swift */,
+				03177E341CAAD7D600397E2C /* Constant.swift */,
 			);
 			name = UTL;
 			sourceTree = "<group>";
@@ -372,6 +375,7 @@
 				0360529C1C9859DF00EC0763 /* ViewController.swift in Sources */,
 				0360529A1C9859DF00EC0763 /* AppDelegate.swift in Sources */,
 				036052CC1C986E0E00EC0763 /* Constants.swift in Sources */,
+				03177E351CAAD7D600397E2C /* Constant.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
