@@ -17,8 +17,10 @@ These are the steps required to upload files to Amazon S3
     Check “Enable access to unauthenticated identities”
     Set The IAM Rules: create new rule for authenticated access and unauthenticated access, click allow
     Click on you cognito you just created, at the top right corner click Edit Identity Pool, Copy Identity pool ID, That’s Your_Identity_Pool_Id
+3. Go to the https://aws.amazon.com/console/ and select Identity & Access Managment under Security & Identity -> select "roles" in the dashboard. Find Your new 2 roles, select the roled and click Edit Policy and add S3 to actions   "s3:*".
 
-3. Changes inside the project
+
+4. Changes inside the project
     Download the project.
     At Constant.swift update COGNITO_POOL_ID with  Your_Identity_Pool_Id and S3_BUCKET_NAME with ‘Your_Bucket_name’
     Build and run 
